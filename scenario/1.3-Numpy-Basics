@@ -1,0 +1,24 @@
+# Indexing and slicing
+Numpy数组可以像其他Python序列一样被索引和迭代。 索引从0开始。
+```
+a = np.array([2,3,5,20,2,1,4,6,1,8,10,3])
+a[2:4]
+```
+对于多维数组，可以使用每轴索引。
+```
+b = a.reshape(4,3)
+b
+b[3, 1] # Elememt in the 4th row and 2nd column
+b[:,2] # 3-rd column
+b[1,:] # 2nd row
+```
+您可以在从末尾访问元素时使用减号
+```
+a[-1]
+b[-2,:]
+b[:,-1]
+```
+
+
+
+
