@@ -1,0 +1,7 @@
+# 前向传播
+打开helper.py文件，您将看到我们为您编写的几个函数。 与read_data和sigmoid函数一起，有三个专用于前向传播过程的函数：
+
++ initialise_weights  - 在训练过程开始设置初始权重和偏差值之前使用，
++ layer - 矩阵乘法和偏置加法
++ forward_propagation  - 使用layer函数并执行前向传播并返回中间结果
+我们将tanh函数作为隐藏层激活函数，并将sigmoid函数用于输出。 前向传播将在每个步骤中执行，并且其结果值将用于更新权重和偏差。
