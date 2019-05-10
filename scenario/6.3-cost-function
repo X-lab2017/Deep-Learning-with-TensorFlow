@@ -1,0 +1,4 @@
+# 损失函数
+我们知道我们的网络是如何预测的。 下一步是设置损失函数。 这将成为我们将在此过程中优化的函数。 通过找到最优值，算法将调整训练过程中的权重和偏差值。</br>
+![](http://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-ml/loss.png)</br>
+您可以在helper.py文件中找到此损失函数的实现。
